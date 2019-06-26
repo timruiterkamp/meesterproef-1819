@@ -4,6 +4,29 @@
 | -------------------------------------------- | -------------------------------------------------- |
 | ![Mobile screens](images/mobile-screens.png) | ![Dashboard screens](images/dashboard-screens.png) |
 
+# Table of contents
+
+- [Introduction](#introduction)
+- [Week 1 concepting & setting up](#Week-1-concepting-&-setting-up)
+  - [Setting up project management tools](#Setting-up-project-management-tools)
+  - [Gaining insight in all aspects of the app](#Gaining-insight-in-all-aspects-of-the-app)
+  - [Designs](#Designs)
+  - [Tech-considerations](#Tech-considerations)
+- [Week 2 Setting up the foundation](#Week-2-Setting-up-the-foundation)
+  - [Feedback from designers](#Feedback-from-designers)
+- [Week 3 setting up code](#Week-3-setting-up-code)
+  - [Queries](#Queries)
+  - [Mutations](#Mutations)
+  - [Resolvers](#Resolvers)
+  - [Models](#Models)
+  - [Feedback](#Feedback)
+- [Week 4 mergin server & client](#Week-4-mergin-server-&-client)
+  - [Creating real time components](#Creating-real-time-components)
+- [Week 5 Optimizing & making it accessible](#Week-5-Optimizing-&-making-it-accessible)
+  - [Performance](#Performance)
+- [Conclusion](#Conclusion)
+- [Contributors](#Contributors)
+
 # Introduction
 
 During the minor webdevelopment at AUAS we got the possibility to work with Jurjen Helmes from the data sience minor during our 'Meesterproef'. Jurjen asked us to create an (web)application to provide users with a place they can leave their complaints and get feedback on their input. Because,according to Jurjen, to make sure Amsterdam will be a city free of emissions, the current problems that EV (Electric Vehicles) users experience need to be taking seriously. When these complains could be measured and geographic points of problems can be created, they can take action and create solutions to these problems that occur often.
@@ -43,11 +66,11 @@ All the designs of this week van be found through the following links:
 
 [Dashboards app wireframes](https://xd.adobe.com/view/200df57a-f938-47e7-62e4-16f374a24c3d-563c/)
 
-## Tech stack
+## Tech considerations
 
 The reason for me to stay a bit back from the designs was that I wanted to focus more on the backend of the application, so I started to dive into multiple solutions that could fit our application. Based on the insights we gained from mapping out the data we needed, what features the application would hold and what whises there were, I could create a pretty detailed datamodel mockup in the first week and start looking for fitting solutions.
 
-# Week 2
+# Week 2 Setting up the foundation
 
 In the second week Dennis and Folkert were most of the time busy with finishing up the designs and create a solid design prototype that we could show Jurjen. This went very well and Jurjen got very enthousiastic.
 
@@ -63,29 +86,23 @@ In this week I spend many hours picking up GraphQl with reading articles and fol
 
 Most of this week I was busy with learning to write GraphQL queries and integrating Typescript in it.
 
-## Feedback designers
+## Feedback from designers
 
 During this week, Folkert also setup a meeting with two designers that pointed out some problems we had in the prototype, like the fact that there was too much unused space and some actions should be displayed in a better way. This was mostly design focussed but it was also very useful to witness how the designers looked at our project.
 
-# Week 3
+# Week 3 setting up code setting up code
 
 In the third week I finally got a hang on the project and finished many articles and videos about GraphQl and it was time to create more customized actions and start splitting my code and implementing our data modal.
 
 The way I splitted my code for a modular GraphQL setup were:
 
 - GraphQl folder
-
   - Resolvers folder
-
     - index.ts including all the resolvers
-
   - Schema folder
     - index.ts, including all the scheme's of the project
-
 - Models folder
-
   - Model files
-
 - Middleware folder
   - Authentication files
 
@@ -260,7 +277,7 @@ This week was also the first week I did have a feedback sessions with Laurens, i
 
 This feature was using real-time web inside our project, and this was already my goal so this was a nice confirmation that it would be a good addition.
 
-# Week 4
+# Week 4 mergin server & client
 
 This week was about mergin the server and client together and fix bugs that would occur. Some things we ran into were that there was only and add function and not a update function. So this was one of the things I implemented in this week.
 
@@ -368,7 +385,7 @@ The code above is about notifications that will be triggered when the status of 
 
 The sockets listen to eachother based on the message that has been communicated from and to the server, this way we can manually trigger actions whenever we liked.
 
-# Week 5
+# Week 5 Optimizing & making it accessible
 
 The last week of the project was all about finishing up the products. As Folkert and Dennis were busy focussing on the last points of the application, I started to focus on the accessability of the website and used the color blindness and WCAG tool to check for issues.
 
@@ -397,4 +414,9 @@ Overall it has been a great project developer and teamwork wise. There was some 
 
 I and the other teammates are very proud of what we delivered, overall it is a quite solid product, with integrated continuous deployment, Typed query language and server and a server side rendered front-end.
 
-More of my opinion and reflection on this product can be found in my reflection at [Reflection at Rechargen](https://github.com/timruiterkamp/meesterproef-1819/blob/master/reflection.md)
+More of my opinion and reflection on this product can be found in my reflection at [Reflection at Recharge](https://github.com/timruiterkamp/meesterproef-1819/blob/master/reflection.md)
+
+# Contributors
+
+- [Dennis Wegereef](https://github.com/denniswegereef/meesterproef-1819)
+- [Folkert-Jan van der Pol](https://github.com/follywolly/meesterproef-1819)
