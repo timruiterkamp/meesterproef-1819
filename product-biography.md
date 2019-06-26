@@ -21,7 +21,7 @@
   - [Resolvers](#Resolvers)
   - [Models](#Models)
   - [Feedback](#Feedback)
-- [Week 4 mergin server & client](#Week-4-mergin-server-&-client)
+- [Week 4 merging server & client](#Week-4-merging-server-&-client)
   - [Creating real time components](#Creating-real-time-components)
 - [Week 5 Optimizing & making it accessible](#Week-5-Optimizing-&-making-it-accessible)
   - [Performance](#Performance)
@@ -307,7 +307,7 @@ This week was also the first week I did have a feedback sessions with Laurens, i
 
 This feature was using real-time web inside our project, and this was already my goal so this was a nice confirmation that it would be a good addition.
 
-# Week 4 mergin server & client
+# Week 4 merging server & client
 
 This week was about mergin the server and client together and fix bugs that would occur. Some things we ran into were that there was only and add function and not a update function. So this was one of the things I implemented in this week.
 
