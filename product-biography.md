@@ -380,3 +380,21 @@ So, it turned out we came .5 short of getting the right contrast, so I changed t
 
 The complaint buttons turned out to be made of `div` so I changed all the occurances that contained a `@click` event to `button` so that every device could tab through the application.
 There was also a lack of visual feedback when you tabbed on an item, for this I restored the outline property in css and made it our according to our theme colors.
+
+## Performance
+
+During the last days of the project me, Dennis and Folkert worked on setting up the Progressive Web App features of the app and commit some latest changes to make sure our app performs the best it could.
+
+We used Lighthouse to audit our website and the score was really good as you can see below:
+
+![Performance results](images/performance-test.png)
+
+As we used server side rendering and use the layers of cache that nuxtJS provides, these things combined result in some great performance.
+
+# Conclusion
+
+Overall it has been a great project developer and teamwork wise. There was some lack of communication between the employer and us, which didn't gave us the opportunity to gather much feedback.
+
+I and the other teammates are very proud of what we delivered, overall it is a quite solid product, with integrated continuous deployment, Typed query language and server and a server side rendered front-end.
+
+More of my opinion and reflection on this product can be found in my reflection at [Reflection at Rechargen](https://github.com/timruiterkamp/meesterproef-1819/blob/master/reflection.md)
