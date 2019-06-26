@@ -7,6 +7,7 @@
 # Table of contents
 
 - [Introduction](#introduction)
+- [Learning goals](#Learning-goals)
 - [Week 1 concepting & setting up](#Week-1-concepting-&-setting-up)
   - [Setting up project management tools](#Setting-up-project-management-tools)
   - [Gaining insight in all aspects of the app](#Gaining-insight-in-all-aspects-of-the-app)
@@ -30,6 +31,33 @@
 # Introduction
 
 During the minor webdevelopment at AUAS we got the possibility to work with Jurjen Helmes from the data sience minor during our 'Meesterproef'. Jurjen asked us to create an (web)application to provide users with a place they can leave their complaints and get feedback on their input. Because,according to Jurjen, to make sure Amsterdam will be a city free of emissions, the current problems that EV (Electric Vehicles) users experience need to be taking seriously. When these complains could be measured and geographic points of problems can be created, they can take action and create solutions to these problems that occur often.
+
+# Learning goals
+
+- **Web App From Scratch**
+
+  - Typescript based application ✅
+  - GraphQL query language to communicate with the database ✅
+
+- **CSS To The Rescue**
+
+  - Use coding structures ✅
+
+- **Browser Technologies**
+
+  - Creating an offline fallback ✅
+
+- **Web design**
+
+  - Creating an accessible application ✅
+  - Build user friendly interactions ✅
+
+- **Performance Matters**
+
+  - Optimize performance of the application ✅
+
+- **Real-Time Web**
+  - Create interactivity between server & client ✅
 
 # Week 1 concepting & setting up
 
@@ -85,6 +113,8 @@ In this week I spend many hours picking up GraphQl with reading articles and fol
 - Tsc as a Typescript compiler
 
 Most of this week I was busy with learning to write GraphQL queries and integrating Typescript in it.
+
+As I was mostly focussing on the back-end of the application, we made a decision together that we would use BEM and SCSS to provide a coding guideline throughout our application. The reason we wanted some guidelines is because during CSS to the Rescue we felt that it provided a great structure and would be very useful when working in teams.
 
 ## Feedback from designers
 
